@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / IDE
+.DS_Store
+.vscode/
+
+# =====================
+# Fitness (중요)
+# =====================
+
+# raw / processed data
+data/
+dataset/
+datasets/
+raw/
+processed/
+fitness_DB/
+npz/
+*.npz
+*.npy
+
+# models / weights
+models/
+weights/
+*.pt
+*.pth
+*.ckpt
+
+# media
+*.mp4
+*.avi
+*.mov
+*.zip
+
+# logs / cache
+wandb/
+runs/
+.cache/
+logs/
