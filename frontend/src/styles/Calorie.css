@@ -1,0 +1,102 @@
+body {
+  background-color: #0d0d0d !important;
+}
+
+/* 바깥 레이アウト */
+.calorie-wrapper {
+  min-height: 100vh;
+  padding: 120px 40px 40px;
+  color: white;
+}
+
+/* 페이지 제목 */
+.calorie-title {
+  font-size: 26px;
+  margin-bottom: 25px;
+  color: #eaeaea;
+}
+
+/* 메인 카드 */
+.calorie-card {
+  width: 60%;
+  margin: 0 auto;
+  background: #151515;
+  border: 1px solid #262626;
+  border-radius: 16px;
+  padding: 35px 30px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+}
+
+/* 카드 제목 */
+.card-header {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #dcdcdc;
+}
+
+/* 입력박스 */
+.input-box {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 14px;
+  background: #1f1f1f;
+  border: 1px solid #333;
+  border-radius: 10px;
+  color: #ddd;
+  font-size: 15px;
+}
+
+.input-box::placeholder {
+  color: #888;
+}
+
+/* 행 구성 */
+.row {
+  display: flex;
+  gap: 12px;
+}
+
+.small {
+  flex: 1;
+}
+
+/* 버튼 */
+.calc-btn {
+  width: 100%;
+  padding: 16px;
+  margin-top: 12px;
+  background: #202737;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.calc-btn:hover {
+  background: #2e3a52;
+}
+
+/* 결과 박스 */
+.result-box {
+  margin-top: 20px;
+  background: #0f0f0f;
+  border: 1px solid #333;
+  padding: 16px;
+  border-radius: 12px;
+  font-size: 18px;
+  color: #e8e8e8;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.fire {
+  font-size: 22px;
+}
+
+.top-gap {
+  height: 40px;
+}

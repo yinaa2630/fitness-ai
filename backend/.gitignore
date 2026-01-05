@@ -1,0 +1,17 @@
+**/postgres
+**/.env
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.pth
+*.pt
+**/__pycache__
+**/*.pyc
+.env
+wearable_backend/chroma_data/*
+!wearable_backend/chroma_data/*.sqlite
+ananconda_envs/**/*
+main_backend/anaconda_envs/
+ananconda_envs
