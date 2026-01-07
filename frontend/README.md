@@ -4,7 +4,7 @@
 
 # FinalProject_frontend
 
-cd FinalProject_frontend
+cd frontend
 npm install
 npm run start
 
