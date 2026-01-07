@@ -4,4 +4,3 @@ python-multipart
 pydantic
 python-dotenv
 openai
-chromadb
