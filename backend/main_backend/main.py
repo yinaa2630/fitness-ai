@@ -19,11 +19,11 @@ print("🚀 DATABASE_URL =", settings.DATABASE_URL)
 # ===============================
 # 사용자
 from routes.users.auth_route import router as auth_router
-from routes.users.admin_route import router as admin_router
+# from routes.users.admin_route import router as admin_router
 from routes.users.profile_route import router as profile_router
 
 # 관리자 로그
-from routes.admin_log_route import router as admin_log_router
+# from routes.admin_log_route import router as admin_log_router
 
 # 구독 / 비디오
 from routes import subscription_route, video_route
@@ -84,8 +84,8 @@ app.include_router(subscription_route.router, prefix="/web/subscription", tags=[
 app.include_router(video_route.router, prefix="/web/video", tags=["video"])
 
 # 관리자
-app.include_router(admin_router, prefix="/admin", tags=["admin"])
-app.include_router(admin_log_router, prefix="/admin", tags=["admin"])
+# app.include_router(admin_router, prefix="/admin", tags=["admin"])
+# app.include_router(admin_log_router, prefix="/admin", tags=["admin"])
 
 # AI / 운동 관련
 app.include_router(ai_router, prefix="/ai", tags=["ai"])

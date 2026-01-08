@@ -6,7 +6,7 @@ from pydantic import BaseSettings
 class Settings(BaseSettings):
     # JWT 토큰 생성에 사용할 비밀 키
     # ⭐ 기본값을 비워두어 .env 값을 반드시 읽도록 변경
-    SECRET_KEY: str = ""
+    SECRET_KEY: str = "dev-secret-key"
 
     # JWT 토큰 생성에 사용할 알고리즘 (HS256: HMAC + SHA-256)
     ALGORITHM: str = "HS256"

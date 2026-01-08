@@ -61,14 +61,14 @@ async def login(user: dict = Body(...), db: Session = Depends(get_db)):
 
     token = create_access_token({
         "sub": str(res["id"]),
-        "role": res["role"]
+        # "role": res["role"]
     })
 
     return {
         "access_token": token,
         "token_type": "bearer",
         "name": res["name"],
-        "role": res["role"]
+        # "role": res["role"]
     }
 
 

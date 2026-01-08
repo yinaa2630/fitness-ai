@@ -45,3 +45,6 @@ wandb/
 runs/
 .cache/
 logs/
+
+ai/**/*.xlsx
+ai/**/*.csv
